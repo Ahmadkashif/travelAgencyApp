@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="home.css">
+    <meta charset="utf-8">
+    <script src="bootstrap.js" charset="utf-8"></script>
+    <script src="popper.min.js" charset="utf-8"></script>
+    <script src="jquery.min.js" charset="utf-8"></script>
+    <title>Travel Agency</title>
+  </head>
+  <body>
+    <%include partials/navbar%>
+    <div class="row d-flex">
+      <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2">
+      </div>
+      <div class="col-xl-10 col-lg-10 col-md-8 col-sm-8">
+        <div class="container first_for_top">
+          <p> </p>
+        </div>
+      </div>
+      <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2">
+      </div>
+    </div>
+    <div class="row d-flex">
+      <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2">
+      </div>
+      <div class="col-xl-10 col-lg-10 col-md-8 col-sm-8 main-body">
+        <%include partials/jumbotron%>
+      </div>
+      <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2">
+      </div>
+      <div class="col-xl-10 col-lg-10 col-md-8 col-sm-8 main-body">
+        <%include partials/carousels%>
+      </div>
+      <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2">
+      </div>
+      <div class="col-xl-10 col-lg-10 col-md-8 col-sm-8 main-body">
+        <div class="jumbotron jumbo our_guided_tours">
+          <h1 class="display-4">Our Guided tours:</h1>
+          <p class = "lead">Our tours are completely safe and guided. We brief history as well as the culture of these
+          beautiful places.</p>
+          <ol class = "textt">
+            <li>Our company is an official partner with Pakistan Tourism Board.</li>
+            <li>We organize tours for families and for individuals.</li>
+            <li>Accomodation is prefered to be in good guest houses with proper sanitaion and comfort.</li>
+            <li>The buses and coaches used for travel are air conditioned and have Wi-Fi facility.</li>
+          </ol>
+          <p class = "lead">Important Notice:<br>
+          For a trouble free experience please make sure not to violate any rules:</p>
+          <ol class = "textt">
+            <li>No weapons/ammunation is allowed.</li>
+            <li>Posession of drugs or contraband is not allowed.</li>
+            <li>Children under 8 are not allowed.</li>
+            <li>The company will not be responsible for any sort of personal losses.</li>
+            <li>Senior citizens are requested to try all tours except hiking ones.</li>
+          </ol>
+
+        </div>
+      </div>
+      <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2">
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2">
+      </div>
+      <div class="col-xl-10 col-lg-10 col-md-8 col-sm-8 carddd main-body">
+        <div class="">
+          <%for(var i=0;i!=tourNumbers;i++){%>
+            <%include partials/cards2%>
+            <%}%>
+        </div>
+      </div>
+      <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2">
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2">
+      </div>
+      <div class="col-xl-10 col-lg-10 col-md-8 col-sm-8 main-body">
+      </div>
+      <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2">
+      </div>
+    </div>
+
+
+
+    <script src="bootstrap.js" charset="utf-8"></script>
+    <script src="popper.min.js" charset="utf-8"></script>
+    <script src="jquery.min.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<form action = "/addtour" method = "post">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Tour Name</label>
+      <input type="inputText" class="form-control" id="inputEmail4" placeholder="Name" name = "tour_name">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Tour date</label>
+      <input type="date" class="form-control" id="inputPassword4" name = "tour_date" placeholder="date">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputText">Display text</label>
+    <input type="inputText" class="form-control" name = "tour_disp_text" id="inputText" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="inputimg">Display img</label>
+    <input type="inputText" class="form-control" name = "tour_disp_img" id="inputimg" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Destination</label>
+    <input type="inputText" class="form-control" name = "tour_destination" id="inputAddress" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">City of departure</label>
+    <input type="inputText" class="form-control" id="inputAddress2" name="tour_dep_city" placeholder="">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">Tour Duration</label>
+      <input type="number" min="1" max="20" name = "tour_duration" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputamount">Price per head</label>
+      <input type="number" min="1" max="200000" name = "tour_price" class="form-control" id="inputamount">
+    </div>
+  </div>
+  <button type="submit" action = "/addtour" method = "post" class="btn btn-primary">Create tour</button>
+</form>

@@ -1,0 +1,10 @@
+<form class="card_form" action="/viewTour" method="post">
+  <div class="card cardd" style="width: 18rem;">
+    <img  class="card-img-top" alt="..." src= <%=obj[i].disp_img%>>
+    <div class="card-body">
+      <h5 class="card-title" name = "card_post[title]" value ="<%=obj[i].name%>" ><%=obj[i].name%></h5>
+      <p class="card-text"><%=obj[i].disp_text%></p>
+      <button type="submit" action = "/viewTour" class="btn btn-primary">View Details</button>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,36 @@
+body{
+    background-color: #fdd3d7d0;
+}
+.bg-light{
+    background-color:rgb(201, 31, 31);
+}
+.navbar .navbar-light .bg-light{
+    background-color: rgb(163, 47, 47);
+}
+
+.bg-danger {
+    background-color: #fc8793 !important;
+    color:rgb(250, 217, 217)  !important;
+}
+.navbar-light .navbar-brand {
+    color: rgb(255, 255, 255);
+    font-family: 'Hepta Slab', serif;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-left:3rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    margin-left:2rem;
+    font-size: 1.50rem;
+    line-height: inherit;
+    white-space: nowrap;
+    font-stretch: expanded;
+}
+.navbar-brand:hover{
+    color:rgb(253, 204, 204)!important;
+}
+.fa-user{
+  font-size: 25px!important;
+}

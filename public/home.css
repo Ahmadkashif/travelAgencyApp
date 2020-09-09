@@ -1,0 +1,149 @@
+body{
+    background-color: #f0fffecc;
+}
+.bg-light{
+    background-color:rgb(201, 31, 31);
+}
+.navbar .navbar-light .bg-light{
+    background-color: rgb(163, 47, 47);
+}
+
+.bg-danger {
+    background-color: #fc8793 !important;
+    color:rgb(250, 217, 217)  !important;
+}
+.navbar-light .navbar-brand {
+    color: rgb(255, 255, 255);
+    font-family: 'Hepta Slab', serif;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-left:3rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    margin-left:2rem;
+    font-size: 1.50rem;
+    line-height: inherit;
+    white-space: nowrap;
+    font-stretch: expanded;
+}
+.navbar-brand:hover{
+    color:rgb(204, 246, 253)!important;
+}
+.h{
+  height: 500px !important;
+}
+.carouxel{
+  margin-top: 75px !important;
+}
+.jumbo{
+  background-color: rgb(232, 253, 253)!important;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 0px!important;
+}
+.join-today{
+  font-size: 2.5rem !important;
+}
+.cardss{
+  background-color: rgba(255, 212, 212, 0.74)!important;
+  margin-top: -35px;
+  padding-top: 45px;
+}
+.card{
+  margin-right: 15px;
+  margin-left:45px;
+  margin-top:15px;
+  margin-bottom: 25px;
+  max-width: 100%!important;
+  flex-shrink: 0 ;
+  border-color:rgb(113, 213, 243)!important;
+  background-color: #ccfcfd!important;
+}
+.btn-custom{
+    background-color: #fc8793!important;
+}
+.bottom-navbar{
+  height: 85px !important;
+}
+.sign-up{
+  color: rgb(255, 255, 255);
+  font-family: 'Hepta Slab', serif;
+}
+.modal-header{
+  background-color: #ffd6db!important;
+}
+.modal-footer{
+  background-color: #ffd6db!important;
+}
+.ceredentials{
+  color:beige;
+}
+.calori-btn{
+  flex-grow: 1!important;
+  max-width: 75px !important;
+  color: aliceblue;
+}
+.calorie_input{
+  max-width: 105px!important;
+}
+.nav_link{
+  color: rgb(211, 246, 248) !important;
+}
+.navbar-dark .bg-dark{
+  color:aquamarine !important;
+}
+.navbar-brand:hover{
+  color:aquamarine !important;
+}
+a{
+  color:rgb(210, 248, 235) !important;
+}
+a:hover{
+  color:aquamarine !important;
+}
+.navbbb{
+  flex-shrink: 1!important;
+}
+.dropdown-item{
+  color: black !important;
+}
+.landing_img{
+  min-width: 100%;
+}
+ul{
+  margin-left: 65%;
+}
+.main-body{
+  background-color: rgb(232, 253, 253) !important;
+}
+.cardd{
+  margin-left: 25px!important;
+  display: inline-block;
+}
+.label_signup{
+  display: block;
+}
+.h{
+  max-height: 450px !important;
+}
+.first_for_top{
+  padding-top: 100px;
+}
+.our_guided_tours{
+  padding-top: 80px !important;
+}
+.textt{
+  padding-top: 10px;
+  font-size: 1.3rem;
+}
+.lead{
+  margin-top: 120px;
+}
+.adminlinks{
+  color: black!important;
+}
+.card_form{
+  display: inline-block !important;
+}
